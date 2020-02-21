@@ -1,10 +1,13 @@
 
 .fish {
     margin: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 8em;
+    box-shadow: 5px 10px #D8DADA;
+    background-color: rgb(255, 254, 254);
 }
 
 .fish__image {
@@ -12,11 +15,13 @@
     height: 8rem;
 }
 .bordered {
-    border: 5px dashed coral;
+    border: 1px solid rgb(204, 201, 200);
     padding: 30px;
 }
 .fish__name{
     text-align: center;
+    font-size: 20px;
+    
 }
 .fishButton {
     display: flex;
@@ -24,8 +29,16 @@
 }
 .fishList{
     width: 50%;
+    background-color: rgb(241, 240, 232);
 }
 .fish__section{
     display: flex;
     flex-wrap: wrap;
 }
+button {
+    border: 1px solid rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    align-content: center ;
+  }

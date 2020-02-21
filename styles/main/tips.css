@@ -1,5 +1,8 @@
 .tipList {
     flex-basis: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(241, 240, 232);
 }
 
 .tip {
