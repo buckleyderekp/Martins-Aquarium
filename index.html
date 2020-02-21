@@ -19,6 +19,26 @@
     <main class="container">
         <article class="fishList bordered">
             <section class="fish">
+                <div class="fish">
+                    <div>
+                        <img class="fish__image"
+                            src="https://3.imimg.com/data3/IW/XT/GLADMIN-105863/fish-125x125.jpg"
+                            alt="">
+                    </div>
+                    <div class="fish__name">Bart</div>
+                    <div>
+                        <button id="button--bart">Details</button>
+                    </div>
+                
+                    <dialog class="dialog--fish" id="details--bart">
+                        <div>Species: Orange Clownfish</div>
+                        <div>Location: Caribbean</div>
+                        <div>Length: 3</div>
+                        <div>Food: Algae, crustaceans</div>
+                
+                        <button class="button--close" id="close-bart">Close Dialog</button>
+                    </dialog>
+                </div>
                 <img class="fish__image" src="https://i.ytimg.com/vi/z_XlTRYLZ1Q/maxresdefault.jpg" />
                 <div class="fish__details">
                     <ul>
@@ -102,7 +122,7 @@
     </main>
 
 
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 
 </html>
