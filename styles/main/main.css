@@ -1,0 +1,15 @@
+@import 'fish.css';
+@import 'nav.css';
+@import 'tips.css';
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.bordered {
+    border: 1px dashed coral;
+}
+
+.body{
+background-color: rgb(197, 197, 247);
+}

@@ -1,0 +1,10 @@
+.navigation {
+    margin: 2em;
+}
+
+.navigation__link {
+    padding: 0 1em 0 1em;
+    font-size: xx-large;
+    font-weight: 800;
+    color: red;
+}
