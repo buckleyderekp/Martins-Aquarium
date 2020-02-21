@@ -1,11 +1,31 @@
 
-.fishList {
-    flex-basis: 65%;
+.fish {
+    margin: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 8em;
 }
 
 .fish__image {
     width: 8rem;
     height: 8rem;
+}
+.bordered {
+    border: 5px dashed coral;
+    padding: 30px;
+}
+.fish__name{
+    text-align: center;
+}
+.fishButton {
+    display: flex;
+    justify-content: center;
+}
+.fishList{
+    width: 50%;
+}
+.fish__section{
+    display: flex;
+    flex-wrap: wrap;
 }

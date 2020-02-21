@@ -6,10 +6,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-.bordered {
-    border: 5px dashed coral;
-    padding: 30px;
-}
+
 
 .body{
 background-color: rgb(197, 197, 247);
