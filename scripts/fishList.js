@@ -14,8 +14,8 @@ const FishList = () => {
     const fishes = useFish()
 
     for (const fishObject of fishes) {
+        // fishHTMLRepresentations += Fish(fish)
         contentElement.innerHTML += Fish(fishObject)
     }
 }
-
 export default FishList
