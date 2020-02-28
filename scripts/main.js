@@ -8,7 +8,7 @@ import TipList from './tips/tipList.js'
 TipList()
 FishList()
 // const arrayOfTheFishObjects = useFish()
-// initializeDetailButtonEvents()
+initializeDetailButtonEvents()
 
 // for (const fishObject of arrayOfTheFishObjects) {
 //     console.log(fishObject)
